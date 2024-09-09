@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="LambdaD" uuid="4e3dc6a7-e51e-4cc5-944b-5109732f77c4">
+  <exported-language name="51d901a9-7f89-4cc0-8a2f-e7b49964744a(Lambda)" />
+  <exported-language name="6b277d9a-d52d-416f-a209-1919bd737f50(org.iets3.core.expr.simpleTypes)" />
+</dev-kit>
+

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/devkits/LambdaD/LambdaD.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/Lambda.sandbox/Lambda.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/Lambda/Lambda.mpl" folder="" />
     </projectModules>
