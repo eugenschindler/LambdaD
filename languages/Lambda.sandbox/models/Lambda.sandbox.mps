@@ -7,6 +7,7 @@
   <imports />
   <registry>
     <language id="cfaa4966-b7d5-4b69-b66a-309a6e1a7290" name="org.iets3.core.expr.base">
+      <concept id="5115872837156652453" name="org.iets3.core.expr.base.structure.MinusExpression" flags="ng" index="30dvUo" />
       <concept id="5115872837156578546" name="org.iets3.core.expr.base.structure.PlusExpression" flags="ng" index="30dDZf" />
       <concept id="5115872837156576277" name="org.iets3.core.expr.base.structure.BinaryExpression" flags="ng" index="30dEsC">
         <child id="5115872837156576280" name="right" index="30dEs_" />
@@ -49,6 +50,24 @@
         </node>
         <node concept="346evd" id="4xN$hQcr8$e" role="30dEsF">
           <ref role="346evc" node="4xN$hQcr8$9" resolve="x" />
+        </node>
+      </node>
+    </node>
+    <node concept="346JRr" id="4xN$hQcrznU" role="346BoS">
+      <node concept="346evh" id="4xN$hQcrzo5" role="346eom">
+        <property role="TrG5h" value="y" />
+      </node>
+      <node concept="346JRr" id="4xN$hQcrzo8" role="346Boc">
+        <node concept="346evh" id="4xN$hQcrzoa" role="346eom">
+          <property role="TrG5h" value="x" />
+        </node>
+        <node concept="30dvUo" id="4xN$hQcrzot" role="346Boc">
+          <node concept="346evd" id="4xN$hQcrzoA" role="30dEs_">
+            <ref role="346evc" node="4xN$hQcrzo5" resolve="y" />
+          </node>
+          <node concept="346evd" id="4xN$hQcrzoo" role="30dEsF">
+            <ref role="346evc" node="4xN$hQcrzoa" resolve="x" />
+          </node>
         </node>
       </node>
     </node>
