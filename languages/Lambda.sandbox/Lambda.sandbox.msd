@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="Lambda.sandbox" uuid="d32c3a6c-78e5-49d3-9722-a18883964efe" moduleVersion="0">
   <models>
-    <modelRoot type="default" contentPath="${module}">
+    <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
   </models>
   <facets>
-    <facet compile="off" classes="off" ext="no" type="java">
+    <facet type="java" compile="off" classes="off" ext="no">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>

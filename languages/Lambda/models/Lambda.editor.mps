@@ -2,7 +2,7 @@
 <model ref="r:d24e6d2c-e1dc-4baf-9848-790eab13075e(Lambda.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="15" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -235,7 +235,7 @@
       <node concept="1sVBvm" id="4xN$hQcqRrk" role="1sWHZn">
         <node concept="3F0A7n" id="4xN$hQcqRrl" role="2wV5jI">
           <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
     </node>
