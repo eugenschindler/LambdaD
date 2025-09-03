@@ -67,12 +67,19 @@
     <property role="TrG5h" value="Proof" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6wLf1k7qL54" role="1TKVEi">
+      <property role="IQ2ns" value="7507848114819764548" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="contextVariables" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4xN$hQcqRrc" resolve="UntypedVariable" />
+    </node>
     <node concept="1TJgyj" id="4xN$hQcqus_" role="1TKVEi">
       <property role="IQ2ns" value="5220675949148366629" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="expressions" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="4xN$hQcqmN6" resolve="LambdaExpression" />
+      <ref role="20lvS9" to="hm2y:6sdnDbSla17" resolve="Expression" />
     </node>
     <node concept="PrWs8" id="4xN$hQcqEhY" role="PzmwI">
       <ref role="PrY4T" to="4kwy:cJpacq5T0O" resolve="IValidNamedConcept" />

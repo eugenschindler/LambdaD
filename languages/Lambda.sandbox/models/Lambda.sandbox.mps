@@ -8,6 +8,7 @@
   <registry>
     <language id="cfaa4966-b7d5-4b69-b66a-309a6e1a7290" name="org.iets3.core.expr.base">
       <concept id="5115872837156652453" name="org.iets3.core.expr.base.structure.MinusExpression" flags="ng" index="30dvUo" />
+      <concept id="5115872837156578671" name="org.iets3.core.expr.base.structure.MulExpression" flags="ng" index="30dDTi" />
       <concept id="5115872837156578546" name="org.iets3.core.expr.base.structure.PlusExpression" flags="ng" index="30dDZf" />
       <concept id="5115872837156576277" name="org.iets3.core.expr.base.structure.BinaryExpression" flags="ng" index="30dEsC">
         <child id="5115872837156576280" name="right" index="30dEs_" />
@@ -26,6 +27,7 @@
       <concept id="5220675949148468940" name="Lambda.structure.UntypedVariable" flags="ng" index="346evh" />
       <concept id="5220675949148366626" name="Lambda.structure.Proof" flags="ng" index="346BoZ">
         <child id="5220675949148366629" name="expressions" index="346BoS" />
+        <child id="7507848114819764548" name="contextVariables" index="1JmyPh" />
       </concept>
       <concept id="5220675949148335302" name="Lambda.structure.LambdaExpression" flags="ng" index="346JRr">
         <child id="5220675949148469003" name="var" index="346eom" />
@@ -40,6 +42,12 @@
   </registry>
   <node concept="346BoZ" id="4xN$hQcqEhX">
     <property role="TrG5h" value="MyProof" />
+    <node concept="346evh" id="6wLf1k7qTEO" role="1JmyPh">
+      <property role="TrG5h" value="z" />
+    </node>
+    <node concept="346evh" id="6wLf1k7qTEQ" role="1JmyPh">
+      <property role="TrG5h" value="v" />
+    </node>
     <node concept="346JRr" id="4xN$hQcr8$8" role="346BoS">
       <node concept="346evh" id="4xN$hQcr8$9" role="346eom">
         <property role="TrG5h" value="x" />
@@ -69,6 +77,14 @@
             <ref role="346evc" node="4xN$hQcrzoa" resolve="x" />
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="30dDTi" id="6wLf1k7qTEZ" role="346BoS">
+      <node concept="346evd" id="6wLf1k7qTF6" role="30dEs_">
+        <ref role="346evc" node="6wLf1k7qTEO" resolve="z" />
+      </node>
+      <node concept="346evd" id="6wLf1k7qTEV" role="30dEsF">
+        <ref role="346evc" node="6wLf1k7qTEO" resolve="z" />
       </node>
     </node>
   </node>
